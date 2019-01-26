@@ -20,6 +20,7 @@ class LoginForm extends Component {
           .catch(this.onLoginFail.bind(this));
       });
   }
+  
   renderButton(){
     if(this.state.loading){
       return <Spinner size="small" />;
