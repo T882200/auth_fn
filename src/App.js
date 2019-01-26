@@ -17,7 +17,7 @@ import LoginForm from './components/LoginForm';
     storageBucket: "loginapp-4c855.appspot.com",
     messagingSenderId: "973637920890"
   };
-  firebase.initializeApp(config);
+  firebase.initializeApp(config);        
 </script> */
 
 
